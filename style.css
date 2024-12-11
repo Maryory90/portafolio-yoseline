@@ -96,3 +96,25 @@ footer {
 .proyectos {
     justify-items: center;
 }
+
+.proyecto1 {
+    width: 100%;
+    background-color: cadetblue;
+    border: solid 1px black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.proyecto2 {
+    width: 100%;
+    background-color: cadetblue;
+    border: solid 1px black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.proyecto3 {
+    width: 100%;
+    background-color: cadetblue;
+    border: solid 1px black;
+    border-radius: 8px;
+    padding: 10px;
+}
