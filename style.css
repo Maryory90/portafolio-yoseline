@@ -1,18 +1,25 @@
 
 /* Fondo para el body */
+
+.container {
+gap: 16px;
+}
+
 body {
-    background-color: gray;
+background-color: gray;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 16px 100px 16px 100px;
+    border: solid 2px;
+    border-radius: 16px;
 }
 
 /* Fondo y estilo para el header y las secciones de habilidades y proyectos */
 header, .Habilidades, .proyectos {
-    background-color: gray; /* Color verde */
+background-color: gray;
     color: white;
     padding: 20px;
     width: 100%;
+    border-radius: 16px;
     box-sizing: border-box;
 }
 
@@ -81,9 +88,9 @@ footer {
 .sobre-mi {
     justify-items: center;
 }
-.habilidades {
+.Habilidades {
     justify-items: center;
 }
-.mis-proyectos {
+.proyectos {
     justify-items: center;
 }
