@@ -2,17 +2,17 @@
 /* Fondo para el body */
 
 .container {
-gap: 16px;
+        background-color: gray;
+    gap: 16px;
+    border-radius: 16px;
+    border: solid white;
 }
 
 body {
-    background-color: gray;
     color: black;
     padding: 20px;
     width: 100%;
-    border-radius: 16px;
     box-sizing: border-box;
-    border: solid white;
 }
 
 
