@@ -1,1 +1,79 @@
 
+/* Fondo para el body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo y estilo para el header y las secciones de habilidades y proyectos */
+header, .Habilidades, .proyectos {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo para el texto del header */
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los subtítulos */
+header h2, .Habilidades h2, .proyectos h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+/* Estilo de los elementos dentro de las listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de los proyectos */
+.proyecto {
+    background-color: #333;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.proyecto h3 {
+    margin: 0 0 10px;
+}
+
+.proyecto p {
+    margin: 5px 0;
+}
+
+.proyecto a {
+    color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
