@@ -9,7 +9,7 @@ body {
 
 /* Fondo y estilo para el header y las secciones de habilidades y proyectos */
 header, .Habilidades, .proyectos {
-    background-color: #4CAF50; /* Color verde */
+    background-color: gray; /* Color verde */
     color: white;
     padding: 20px;
     width: 100%;
@@ -76,4 +76,14 @@ footer {
     background-color: #333;
     color: white;
     margin-top: 20px;
+}
+
+.sobre-mi {
+    justify-items: center;
+}
+.habilidades {
+    justify-items: center;
+}
+.mis-proyectos {
+    justify-items: center;
 }
